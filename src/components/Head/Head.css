@@ -1,0 +1,67 @@
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #047d04;
+    padding: 1rem;
+    align-items: center;
+}
+
+header h1,
+header h3 {
+    width: fit-content;
+    text-align: center;
+}
+
+header h3 {
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 0.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #fff;
+}
+
+.text {
+    width: 70%;
+    text-align: center;
+    margin-block: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.statistics {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.statistics div {
+    width: 20%;
+    margin-bottom: 1rem;
+}
+
+.statistics div {
+    border-right: 2px solid #fff;
+}
+
+.statistics div:nth-of-type(4) {
+    border: none;
+}
+
+.statistics div p:nth-of-type(1) {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.statistics div p:nth-of-type(2) {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

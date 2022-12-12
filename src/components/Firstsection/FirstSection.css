@@ -1,0 +1,53 @@
+.about {
+    width: 90;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block: 2rem;
+}
+
+.about h2 {
+    padding-block: 1rem;
+}
+
+.services {
+    width: 90%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.services div {
+    width: 70%;
+    margin-bottom: 1rem;
+    margin-inline: auto;
+}
+
+.services div {
+    display: flex;
+}
+
+.services div div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.services div div h4 {
+    margin-block: 0.2rem;
+    width: 100%;
+}
+
+.services div div p {
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+.services div img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
